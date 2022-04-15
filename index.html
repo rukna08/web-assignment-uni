@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+
+    <body>
+        <header>
+            <nav>
+                <h1 style="color:rgb(208, 194, 1);">NEXUS FITNESS CLUB</h1>
+                
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="trainings.html">Trainings</a></li>
+                    <li><a href="timetable.html">Timetable</a></li>
+                    <li><a href="nutrition.html">Nutrition</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <div class="image">
+
+        </div>
+
+        <div class="register">
+            
+            <button onclick="changeText()" id="register-button" type="button">Register Now</button>
+
+            <script>
+                function changeText() {
+                    var btn = document.getElementById("register-button");
+                    btn.innerHTML = "Registered";
+                }
+            </script>
+
+        </div>
+
+        <footer>
+            <h3>Our fitness club has top-notch instructors, diet plans, fitness guides and modern state of the art equipments to kickstart your fitness journey!<br>
+            So, what are you waiting for? Select the plans below!! LIMITED TIME OFFER: REGISTER WITHIN 30 JUNE, 2022 TO GET 10% OFF FOR THE FIRST MONTH.
+            </h3>
+
+            <img src="off.gif">
+
+            <br>
+            <p>Standard plan: Rs.800/- per month, all equipments accessible.<br>
+                Deluxe plan: Rs.1200/- per month, diet plans + fitness guides with all the above perks.<br>
+                Super Deluxe plan: Rs.3000/- per month, personal instructor + all the above perks.
+            </p>
+        </footer>
+    </body>
+</html>
